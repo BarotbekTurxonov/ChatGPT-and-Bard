@@ -63,7 +63,7 @@ async def gpt_reply(msg: types.Message):
 
 
 ################### GOOOGLE BARD  ##########################
-
+"""
 from Bard import AsyncChatbot
 
 Secure_1PSID = "agjLcBj7DAV5x9DSmJATjKSKxsXxh5cGBGn9FrLsv8OM33nnT3mqEe93UguxYWocbzA80A."
@@ -101,7 +101,7 @@ async def bard_api(msg: types.Message):
             await msg.reply(err)
     else:
         await msg.reply("Usage:  <code>/bard &lt;your question&gt; </code>", parse_mode='html')
-
+"""
 
 
 
